@@ -15,5 +15,5 @@
 			(4 . (0 . 10))))
 
 (deftest find-path-test ()
-  (let ((result (cons '(0 2 4) 28)))
+  (let ((result (cons '(0 2 4 0) 28)))
     (is (equal result (find-path 0 *paths* *elevations*)))))
