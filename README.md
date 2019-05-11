@@ -10,7 +10,7 @@
 
 > For example, suppose you are given the following input:
 
-    elevations = {0: 5, 1: 25, 2: 15, 3: 20, 4: 10}
+    elevations = {0: 5, 1: 3, 2: 15, 3: 20, 4: 10}
     paths = {
         (0, 1): 10,
         (0, 2): 8,
@@ -23,6 +23,7 @@
     }
 
 > In this case, the shortest valid path would be 0 -> 2 -> 4 -> 0, with a distance of 28.
+> The shortest valid path from place 1 is 1 -> 3 -> 4 -> 0 -> 1, with a distance of 37.
 
 
 ### Test

@@ -19,6 +19,8 @@
 (asdf:defsystem "runner/tests"
   :licence "Public Domain"
   :depends-on (:runner
+	       :alexandria
+	       :check-it
 	       :fiasco)
   :serial t
   :components ((:module "tests"
