@@ -28,4 +28,4 @@
 
 ### Test
 
-    sbcl --non-interactive --eval "(ql:quickload :runner)" --eval "(asdf:test-system :runner)"
+    sbcl --non-interactive --eval "(ql:quickload :runner/tests)" --eval "(asdf:test-system :runner)"
